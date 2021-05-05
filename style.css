@@ -29,6 +29,9 @@ button {
 button:first-of-type {
     background-color: white;
     border: 1px solid gray;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
 }
 
 span {
@@ -46,12 +49,18 @@ label {
 input {
     padding: 10px 0 10px 0;
     border: none;
-    border-bottom: 1px solid gray
+    border-bottom: 1px solid gray;
 }
 
 form p:first-of-type {
     padding: 1em 0.2em 1em;
 }
+
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+    
+  }
 
 .hidden-english {
     display: none;
@@ -94,6 +103,7 @@ form p:first-of-type {
 .side img {
     position: absolute;
     right: -100px;
+    overflow: hidden;
 }
 
 .social-media {
@@ -156,6 +166,10 @@ form p:first-of-type {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+    }
+
+    html {
+        width: 100%;
     }
     
     form {
@@ -254,6 +268,7 @@ form p:first-of-type {
         height: 300px;
         width: auto;
         left: -250;
+        overflow: hidden;
     }
 
     .social-media {
