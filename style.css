@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(104, 104, 255);
+}
+
+button {
+    padding: 0.7em;
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+}
+
+button:first-of-type {
+    background-color: white;
+    border: 1px solid gray;
+}
+
+span {
+    display: flex;
+    justify-content: center;
+    margin: 1.5em 0 1.5em 0;
+    color: rgb(177, 177, 177);
+}
+
+label {
+    color: gray;
+    padding: 1em 0 1em 0;
+}
+
+input {
+    padding: 10px 0 10px 0;
+    border: none;
+    border-bottom: 1px solid gray
+}
+
+form p:first-of-type {
+    padding: 1em 0.2em 1em;
+}
+
+.hidden-english {
+    display: none;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+
+.fa-google {
+    font-size: 1.3em;
+    margin-right: 0.7em;
+}
+
+.fa-facebook-square, .fa-apple {
+    font-size: 2em;
+}
+
+
+.hidden {
+    display: none;
+}
+
+.container {
+    padding: 1.2em;
+    margin-top: 50px;
+}
+
+.container p:nth-child(2) {
+    padding: 1em 0.2em 1em;
+    color: rgb(177, 177, 177);
+}
+
+.side {
+    height: 250px;
+    background-color: antiquewhite;
+    padding: 1.2em;
+    position: relative;
+}
+
+.side img {
+    position: absolute;
+    right: -100px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+
+.green {
+    background-color: green;
+    height: 5px;
+    width: 25%;
+    margin-right: 0.4em;
+}
+
+.gray {
+    background-color: rgb(189, 189, 189);
+    height: 5px;
+    width: 25%;
+    margin-right: 0.4em;
+}
+
+.flexStrength {
+    display: flex;
+    margin-bottom: 2em;
+}
+
+.terms {
+    margin-left: 2em;
+    color: rgb(189, 189, 189);
+}
+
+.createAccount {
+    width: 100%;
+    padding: 1.2em;
+    color: white;
+    background-color: coral !important;
+    border: none !important;
+    margin-top: 1.5em;
+}
+
+.inputIcon {
+    position: relative;
+}
+
+.inputIcon input {
+    width: 100%;
+}
+
+.fa-eye {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    font-size: 18px;
+    color: gray;
+}
+
+@media (min-width: 700px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    a {
+        text-decoration: none;
+        color: rgb(104, 104, 255);
+    }
+    
+    button {
+        padding: 0.7em;
+        font-size: 14px;
+        font-weight: 700;
+        border: none;
+        border-radius: 8px;
+    }
+    
+    button:first-of-type {
+        background-color: white;
+        border: 1px solid gray;
+        width: 70%;
+    }
+    
+    span {
+        display: flex;
+        justify-content: center;
+        margin: 1.5em 0 1.5em 0;
+        color: rgb(177, 177, 177);
+    }
+    
+    label {
+        color: gray;
+        padding: 1em 0 1em 0;
+    }
+    
+    input {
+        padding: 10px 0 10px 0;
+        border: none;
+        border-bottom: 1px solid gray
+    }
+    
+    form p:first-of-type {
+        padding: 1em 0.2em 1em;
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .fa-google {
+        font-size: 1.3em;
+        margin-right: 1.4em;
+    }
+    
+    .fa-facebook-square, .fa-apple {
+        font-size: 2em;
+    }
+    
+    
+    .hidden {
+        display: block;
+        margin-top: 20px;
+    }
+
+    .hidden-english {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 30px;
+    }
+    
+    .container {
+        padding: 6em 10em 6em 10em
+    }
+    
+    .container p:nth-child(2) {
+        padding: 1em 0.2em 1em;
+        color: rgb(177, 177, 177);
+    }
+    
+    .side {
+        background-color: antiquewhite;
+        padding: 1.2em;
+        position: relative;
+        width: 40%;
+        height: 100vh;
+    }
+    
+    .side img {
+        position: absolute;
+        top: 250px;
+        height: 300px;
+        width: auto;
+        left: -250;
+    }
+
+    .social-media {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .green {
+        background-color: green;
+        height: 5px;
+        width: 25%;
+        margin-right: 0.4em;
+    }
+    
+    .gray {
+        background-color: rgb(189, 189, 189);
+        height: 5px;
+        width: 25%;
+        margin-right: 0.4em;
+    }
+    
+    .flexStrength {
+        display: flex;
+        margin-bottom: 2em;
+    }
+    
+    .terms {
+        margin-left: 2em;
+        color: rgb(189, 189, 189);
+    }
+    
+    .createAccount {
+        width: 100%;
+        padding: 1.2em;
+        color: white;
+        background-color: coral !important;
+        border: none !important;
+        margin-top: 1.5em;
+    }
+    
+    .inputIcon {
+        position: relative;
+    }
+    
+    .inputIcon input {
+        width: 100%;
+    }
+    
+    .fa-eye {
+        position: absolute;
+        right: 0;
+        bottom: 10px;
+        font-size: 18px;
+        color: gray;
+    }
+}
+
+
+
